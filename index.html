@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Formulário</title>
+</head>
+<body>
+
+<p>form-1</p>
+<fieldset>
+<form action="#" method="post" enctype="multipart/form-data">
+  <label for="nome">Nome:</label><br>
+  <input type="text" id="nome" name="nome"><br>
+  
+  <label for="email">Email:</label><br>
+  <input type="email" id="email" name="email"><br>
+  
+  <label for="mensagem">Message:</label><br>
+  <textarea id="mensagem" name="mensagem" rows="4"></textarea><br>
+  
+  <label for="arquivo">Select A File To Upload:</label><br>
+  <input type="text" id="arquivo" name="arquivo">
+  <input type="button" value="Browser">
+  <br><br>
+
+  <input type="button" value="Submit">
+</form>
+</fieldset>
+<br><br>
+<hr>
+<br>
+</body>
+</html>
+
+
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<br>
+<br>
+    <p>form-2</p>
+
+    <form method="post" action="#">
+    
+    <table border="1">
+    
+    <tr>
+    
+    <td colspan="2" align="center"> Pizza shop 2.0</td>
+    
+    </tr>
+    
+    <tr>
+    
+    <td>Name:</td>
+    
+    <td><input type="text" size="20" name="name"></td>
+    
+    </tr>
+    
+    <tr>
+    
+    <td>Pizza topping</td>
+    
+    <td>
+    
+    <input type="radio" name="topping" value="supreme">Supreme
+    
+    <br><input type="radio" name="topping" value="vegetarian">Vegetarian
+    
+    <br><input type="radio" name="topping" value="hawaiian">Hawaiian
+    
+    </td>
+    
+    </tr>
+    
+    <tr>
+    
+    <td>Pizza sauce</td>
+    
+    <td><select name="sauce">
+    
+    <option value="Tomato" selected>Tomato</option>
+    
+    <option value="*********">**********</option>
+    
+    </select>
+    
+    </td>
+    
+    </tr>
+    
+    <tr>
+    
+    <td>Optional extras:</td>
+    
+    <td><input type="checkbox" value="c1" name="Extra Cheese" checked> Extra Cheese 
+    
+    <input type="checkbox" value="c2" name="Gluten Free Base"> Gluten Free Base
+    
+    </td>
+    
+    </tr>
+    
+    <tr>
+    
+    <td colspan="2">
+    
+    Delivery Instructions:
+    
+    <br>
+    
+    <textarea name="delivery_instructions" rows="5" cols="50">
+    
+    </textarea><br>
+    
+    <input type="submit" value="Send my Order"></td>
+    
+    </tr>
+    
+    </table>
+    
+    </form>
+    
+    </body>
+</html>
+
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <br><br><hr>
+    <p>form-3</p><br><br>
+    <fieldset>
+    <fieldset>
+        <legend>Name</legend>
+        <form action="post">
+            <p>Fist Name <input type="text"></p>
+            <p>Last Name <input type="text"></p>
+        </form>
+    </fieldset>
+    <br>
+    <fieldset>
+        <legend>Sports</legend>
+        <form action="post">
+            <p>Do you enjoy baskerball? <br><input type="checkbox">Yes <br>
+            <input type="checkbox">No</p>
+            <p>Do you enjoy baseball? <br><input type="checkbox">Yes <br>
+                <input type="checkbox">No</p>
+              
+        </form>
+    </fieldset>
+    <input type="submit" value="Submit Query">
+</fieldset>
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+</head>
+<body>
+    <br><br><hr>
+    <p>form-4</p><br><br>
+    <form action="#" method="post">
+    <fieldset>
+        <p><label for="first_name"><font color="red">*first_name</font>
+        </label> <input type="text" name="first_name"></p><br><br>
+        <p><label for="last_name"><font color="red">*last_name</font>
+        </label> <input type="text" name="last_name"></p>
+        <p><label for="Year">Year of graduation:</label>
+            <input type="text" name="Year" id="Year"></p>
+        <br>
+        <br>
+        <fieldset>
+            <legend><font color="red">Gender:</font></legend>
+            <p><br><input type="radio" name="gender">Male <br>
+                <br><input type="radio" name="gender">Female</p>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>telecommuter</legend>
+            <p><br><input type="checkbox" name="telecommuter">Yes <br>
+                <br><input type="checkbox" name="telecomm"> No </p>
+
+        </fieldset>
+        <br>
+            <input type="submit" value="Next">
+            <br><br>
+        </fieldset>
+    </form>
+</body>
+</html>
+
+
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+</head>
+<body>
+    <br><br><hr>
+    <p>form-5</p><br><br>
+    <form action="#" method="get" enctype="multipart/form-data">
+            <fieldset>
+    <p>General Details</p>
+    <label for="name">Name:</label>
+    <input type="text" name="name" value="Robin Jackman">
+        <br>
+    <label for="email">Email:</label>
+    <input type="email" name="email" value="robin@exemple.com">
+        <br>
+    <label for="gender">Gender:</label>
+        <input type="radio" name="radio" id="radio" checked>
+        <label for="radio">Male</label>
+        <input type="radio" name="radio" id="radio">
+        <label for="radio">Female</label>
+        <br>
+    <label for="select">How did you hear about us:</label>
+        <select>
+            <option value="Search Engine">Search Engine</option>
+            <option value="Friends">**********</option>
+        </select>
+        <br>
+    <label for="comment">Comments:</label><br>
+    <textarea name="comment" cols="30" rows="5">Great resource :-)</textarea>
+    <br>
+    <p>User Account Details</p>
+
+    <label for="user">Username:</label>
+    <input type="text" value="Robin">
+        <br>
+    <label for="pass">Password:</label>
+    <input type="password" value="********">
+        <br>
+    <label for="check">Newsletter Subscriptions:</label>
+    <input type="checkbox" name="check" checked>
+    <label for="check">PHP Articles</label>
+    <input type="checkbox" name="check">
+    <label for="check">PHP News</label>
+        <br>
+    <input type="submit" value="Submit">
+    <input type="reset" value="Reset">
+        </fieldset>
+    </div>
+    </form>
+</body>
+</html>
